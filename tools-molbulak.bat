@@ -31,7 +31,6 @@ choice /C:YN /N /M "Return main menu -[Y] or exit -[N]?..."
 IF %ERRORLEVEL% == 1 goto :k-main
 IF %ERRORLEVEL% == 2 goto :k-exit
 
-
 :k-finstart
 cls
 call f2_finstart.bat
